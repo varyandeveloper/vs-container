@@ -1,6 +1,7 @@
 {
     "name": "vs/router",
     "description": "VarYan's Container package",
+    "homepage": "https://github.com/varyandeveloper/vs-container",
     "type": "package",
     "require": {
         "php": "^7.2",
