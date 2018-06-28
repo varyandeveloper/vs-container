@@ -1,5 +1,5 @@
 {
-    "name": "vs/router",
+    "name": "vs/container",
     "description": "VarYan's Container package",
     "homepage": "https://github.com/varyandeveloper/vs-container",
     "type": "package",
