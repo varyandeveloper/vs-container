@@ -1,0 +1,25 @@
+{
+    "name": "vs/router",
+    "description": "VarYan's Container package",
+    "type": "package",
+    "require": {
+        "php": "^7.2",
+        "vs/general": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Varazdat Stepanyan",
+            "email": "developervaryan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VS\\Container\\": "./src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
