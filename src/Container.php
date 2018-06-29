@@ -77,7 +77,7 @@ final class Container implements ContainerInterface
     public function getSingleTone(string $class, ...$params)
     {
         if (empty(self::$classSingletonState[$class])) {
-            $this->get($class, ...$params);
+            self::$classSingletonState[$class] = $this->get($class, ...$params);
         }
 
         return self::$classSingletonState[$class];
